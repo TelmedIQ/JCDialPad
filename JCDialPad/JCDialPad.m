@@ -51,7 +51,7 @@
 {
     [self setDefaultStyles];
     
-    self.contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, MIN(self.height, 568.0f))];
+    self.contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.height)];
     self.contentView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin;
     self.contentView.center = self.center;
     [self addSubview:self.contentView];

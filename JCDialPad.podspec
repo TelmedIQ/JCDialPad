@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                      Based on ABPadLockScreen by Aron Bury.
                      DESC"
 
-  s.homepage     = "https://github.com/jconst/JCDialPad"
+  s.homepage     = "https://github.com/SidMcLaughlin/JCDialPad"
 
   s.license      = 'MIT'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.ios.deployment_target = '5.0'
 
-  s.source       = { :git => "https://github.com/jconst/JCDialPad.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/sidmclaughlin/JCDialPad.git", :tag => s.version.to_s }
   s.source_files  = 'JCDialPad/*.{h,m}'
 
   s.dependency 'libPhoneNumber-iOS'
